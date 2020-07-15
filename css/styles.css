@@ -2,4 +2,39 @@
 * {
     box-sizing: border-box;
     font-family: 'Muli',  Helvetica, Arial, sans-serif;
+
   }
+
+  body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 10% 10% 70%;
+    margin: 20px;
+  }
+  
+  .side-bar {
+    background-color: darkkhaki;
+    grid-row: 1/ span 5;
+    height: 100%;
+
+  }
+
+  .search-bar {
+    background-color: coral;
+    /* grid-column: ; */
+  }
+
+  .title-section {
+    background-color: deepskyblue;
+  }
+
+  .button-section {
+    background-color: indianred;
+  }
+
+  .main-container {
+    background-color: rgb(154, 127, 174);
+    display: grid;
+    grid-template-rows: repeat(5, 10fr);
+    grid-template-columns: repeat(2, 10fr);
+}
