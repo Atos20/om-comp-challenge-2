@@ -20,15 +20,18 @@
   }
 
   .search-bar {
+    display: flex;
     background-color: coral;
     /* grid-column: ; */
   }
 
   .title-section {
+    display: flex;
     background-color: deepskyblue;
   }
 
-  .button-section {
+  .tab-section {
+    display: flex;
     background-color: indianred;
   }
 
