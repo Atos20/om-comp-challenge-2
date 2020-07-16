@@ -13,6 +13,7 @@
   }
   
   .side-bar {
+    background-color: #878C8F;
     display: felx;
     flex-direction: column;
     /* background-color: darkkhaki; */
@@ -32,15 +33,20 @@
   }
 
   .bar {
-    text-align: center;
+    border: 1px solid lavender;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     font-size: .8em;
+    text-align: left;
     text-transform: lowercase;
     padding: 5px;
     margin: 5px;
-    border: 2px solid red;
-    border-radius: 15px;
   }
 
+  .bar:hover{
+    background-color: rgb(165, 167, 169) ;
+  }
   .search-bar {
     display: flex;
     justify-content: space-around;
