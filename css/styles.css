@@ -13,10 +13,17 @@
   }
   
   .side-bar {
+    display: felx;
+    flex-direction: column;
     background-color: darkkhaki;
     grid-row: 1/ span 5;
     height: 100%;
-
+  }
+  
+  .bar {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
   }
 
   .search-bar {
