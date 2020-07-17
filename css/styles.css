@@ -5,7 +5,6 @@
   }
 
   body {
-    
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 10% 10% 10% 70%;
@@ -14,23 +13,29 @@
   
   .side-bar {
     color: #FCF7FF;
-    background-color: #878C8F;
     background-image: url("https://images.unsplash.com/photo-1524169113253-c6ba17f68498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
     display: felx;
     flex-direction: column;
-    /* background-color: darkkhaki; */
     grid-row: 1/ span 5;
     height: 100%;
+    opacity: .9;
   }
   .profile{
     text-align: center;
     padding-bottom: 1em;
     margin:10px;
+    height: 10%;
+    width: ;
   }
 
   .profile-image {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
     border-radius: 50%;
+    display: inline-block;
     text-align: center;
+    opacity: .2;
     padding-bottom: 1em;
   }
 
