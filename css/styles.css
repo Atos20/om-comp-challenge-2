@@ -23,36 +23,50 @@
   .profile{
     text-align: center;
     padding-bottom: 1em;
-    margin:10px;
-    height: 10%;
-    width: ;
+    margin: 40px 0px 10px 0px ;
+    /* margin:10px;
+    height: 10px; */
+    /* width: ; */
   }
 
   .profile-image {
-    height: 100px;
-    width: 100px;
-    background-color: #bbb;
+    background-color: rgb(0, 255, 195);
     border-radius: 50%;
     display: inline-block;
+    height: 100px;
     text-align: center;
     opacity: .2;
     padding-bottom: 1em;
+    width: 100px;
+  }
+
+  .profile-name {
+    margin: 5px;
+    padding: 4px;
+  }
+
+  .menu-section {
+    text-align: center;
+  }
+  .menu-title{
+    padding: 15px 0px 5px 0px;
   }
 
   .bar {
-    border: .5px solid #bababa;
+    border: .5px solid #9f8686;
     border-top: none;
     border-left: none;
     border-right: none;
     font-size: .8em;
     text-align: left;
     text-transform: lowercase;
-    padding: 8px;
+    letter-spacing: .7px;
     margin: 10px;
+    padding: 8px;
   }
 
   .bar:hover{
-    background-color: rgb(165, 167, 169) ;
+    background-color: #9f8686 ;
     padding: 9px;
   }
   .search-bar {
