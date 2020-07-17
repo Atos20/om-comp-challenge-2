@@ -1,11 +1,11 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Muli',  Helvetica, Arial, sans-serif;
-
+    font-family: 'Raleway', sans-serif;
   }
 
   body {
+    
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 10% 10% 10% 70%;
@@ -13,7 +13,9 @@
   }
   
   .side-bar {
+    color: #FCF7FF;
     background-color: #878C8F;
+    background-image: url("https://images.unsplash.com/photo-1524169113253-c6ba17f68498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
     display: felx;
     flex-direction: column;
     /* background-color: darkkhaki; */
@@ -33,19 +35,20 @@
   }
 
   .bar {
-    border: 1px solid lavender;
+    border: .5px solid #bababa;
     border-top: none;
     border-left: none;
     border-right: none;
     font-size: .8em;
     text-align: left;
     text-transform: lowercase;
-    padding: 5px;
-    margin: 5px;
+    padding: 8px;
+    margin: 10px;
   }
 
   .bar:hover{
     background-color: rgb(165, 167, 169) ;
+    padding: 9px;
   }
   .search-bar {
     display: flex;
