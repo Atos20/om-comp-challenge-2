@@ -1,6 +1,6 @@
 
 *{
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
   }
 
@@ -266,7 +266,6 @@
   height: 25px;
   justify-self: end;
   text-decoration: none;
-
 }
 
 .second-article{
@@ -307,38 +306,40 @@
   background-color: Transparent;
 }
 
+.left-side button:hover{
+  /* background-color: red; */
+}
 .rigth-side{
   text-align: center;
   padding: 1em;
 }
 
 .share-article-1 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(104, 205, 24, 0.69);
   padding: 5%;
   
 }
 .rigth-side button{
-  margin: 0% 1% 5% 2%;
-  width: 100%;
-  display: inline-block;
-  text-align: -webkit-center;
-  padding: 2% 0% 2% 0%;
-  font-size: smaller;
-  letter-spacing: 2px;
-  color: white;
   background-color: #3e7ec5;
   border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: smaller;
+  letter-spacing: 2px;
+  margin: 0% 1% 5% 2%;
+  padding: 4% 0% 4% 0%;
+  text-align: -webkit-center;
+  width: 100%;
 }
 
-
-/* .share-article-1{
-  background-color: powderblue;
+.rigth-side button:hover {
+  background-color: #7da1c9;
 }
 
-.share-article-2{
-  background-color: rgb(189, 176, 230);
+.rigth-side p{
+  text-align: left;
+  font-size: .5em;
+  margin: 10% 0% 10% 0%;
+  line-height: 1.6;
 }
-
-.share-article-3{
-  background-color: rgb(176, 230, 180);
-} */
