@@ -122,7 +122,16 @@
     justify-content: space-between;
     margin: 0% 0% 2% 2%;
     padding: 3%;
+ 
   }
+  /* .firs-section {
+
+  } */
+  
+  .second-section {
+    align-self: end;
+    justify-self: end;
+}
 
   .title-section button {
     display: inline-block;
