@@ -202,6 +202,11 @@
   padding: 3%;
 }
 
+.main-container h2, h4, h5{
+  margin: 0;
+  padding: 0;
+}
+
 .album {
   background-color: rgb(249, 150, 97);
   border-radius: 50%;
@@ -235,8 +240,17 @@
   grid-column: 2 / span 1;
 }
 
+.album-playing{
+  grid-column: 4 / span 1;
+  width: 8em;
+}
+
 .save-song {
   grid-column: 5 / span 1;
+}
+.info-card {
+  grid-column: 5 / span 2;
+  margin: 11%;
 }
 
 .up {
