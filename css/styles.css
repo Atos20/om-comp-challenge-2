@@ -133,7 +133,7 @@
     justify-self: end;
 }
 
-  .title-section button {
+  .control-button{
     display: inline-block;
     border: none;
     border-radius: 13%;
