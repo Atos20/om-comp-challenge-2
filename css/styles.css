@@ -193,7 +193,7 @@
     background-color: rgb(154, 127, 174);
     display: grid;
     grid-template-rows: repeat(2, .5fr);
-    grid-template-columns: repeat(5, 10fr);
+    grid-template-columns: repeat(6, 10fr);
 }
 
 .main-container {
@@ -214,6 +214,18 @@
 }
 
 .bar {
-  grid-column: 4 / span 2;
+  grid-column: 4 / span 3;
   width: 100%;
+}
+.save-button {
+  border-style: none;
+  border-radius: 50%;
+}
+
+.save-album {
+  grid-column: 2 / span 1;
+}
+
+.save-song {
+  grid-column: 5 / span 1;
 }
