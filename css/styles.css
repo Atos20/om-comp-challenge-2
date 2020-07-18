@@ -129,7 +129,7 @@
   .location{
     font-size: .7em;
   }
-  
+
   .second-section {
     align-self: end;
     flex-wrap: wrap;
@@ -162,14 +162,15 @@
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    font-size: smaller;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: .7em;
+    justify-content: space-start;
     list-style-type: none;
     margin-bottom: 1em;
     opacity: .9;
     padding: 1em;
     padding-bottom: 0em;
-    text-transform: lowercase;
+    text-transform: uppercase;
   }
   
   .tab-section li {
@@ -178,6 +179,7 @@
 
   .tab-section li:hover{
     border-bottom: 4px solid #95b7a0;
+    font-weight: bolder;
   }
 
   .main-container {
