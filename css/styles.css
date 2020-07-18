@@ -123,9 +123,12 @@
     margin: 0% 0% 2% 2%;
  
   }
-  /* .firs-section {
-
-  } */
+  .title {
+    font-weight: 500;
+  }
+  .location{
+    font-size: .7em;
+  }
   
   .second-section {
     align-self: end;
