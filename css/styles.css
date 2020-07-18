@@ -134,14 +134,24 @@
       transform: scale(0.99);
   }
 
-  .tab-section {
+  .tab-section ul {
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+    flex-direction: row;
     background-color: indianred;
     border-bottom: 2px solid black;
     cursor: pointer;
+    font-size: smaller;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-transform: lowercase;
+    margin-top: 1em;
+    padding: 1em;
+  }
+
+  .tab-section li:hover{
+    border-bottom: .5px solid lightgray;
   }
 
   .main-container {
