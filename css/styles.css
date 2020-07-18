@@ -278,9 +278,18 @@
 
 .left-side{
     background-color: lightpink;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: repeat(10, 10%);
+    grid-template-columns: 10% 10% 60% 20%;
+    grid-template-rows: repeat(10, 15fr);
     display: grid;
     opacity: .8;
-    margin: 3% 3% 3% 3%;
+    justify-items: start;
+    align-items: end;
+    margin: 3% 2% 3% 3%;
+}
+
+.left-container{
+  grid-column: 1 / span 2;
+}
+.artist-name{
+  grid-column: 3 / span 1;
 }
