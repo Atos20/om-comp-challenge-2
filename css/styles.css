@@ -100,7 +100,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    background-color: coral;
+    background-color: #95b7a1;
     height: 4em;
   }
 
@@ -135,19 +135,24 @@
   }
 
   .tab-section ul {
+    background-color: #9764ba;
+    border-bottom: 4px solid #95b7a0;
+    color: #ecdee3;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
-    background-color: indianred;
-    border-bottom: 2px solid black;
-    cursor: pointer;
     font-size: smaller;
     justify-content: space-around;
     list-style-type: none;
-    margin: 0;
+    margin-bottom: 1em;
+    opacity: .9;
     padding: 0;
-    text-transform: lowercase;
-    margin-top: 1em;
     padding: 1em;
+    text-transform: lowercase;
+  }
+  
+  .tab-section li {
+    margin: 1%
   }
 
   .tab-section li:hover{
