@@ -132,7 +132,12 @@
     flex-wrap: wrap;
     padding-left: 45%;
 }
-
+  .playing-button {
+    border-radius: 15px;
+    border: none;
+    font-size: .6em;
+    padding: 2% 8% 2% 8%;
+  }
   .control-button{
     display: inline-block;
     border: none;
