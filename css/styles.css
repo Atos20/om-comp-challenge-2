@@ -146,8 +146,8 @@
     list-style-type: none;
     margin-bottom: 1em;
     opacity: .9;
-    padding: 0;
     padding: 1em;
+    padding-bottom: 0em;
     text-transform: lowercase;
   }
   
