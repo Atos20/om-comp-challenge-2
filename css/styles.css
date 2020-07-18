@@ -307,9 +307,19 @@
   background-color: Transparent;
 }
 
+.rigth-side{
+  text-align: center;
+  padding: 1em;
+}
+
+.share-article-1 {
+  border-bottom: 1px solid black;
+  padding: 5%;
+  
+}
 .rigth-side button{
   margin: 0% 1% 5% 2%;
-  width: 50%;
+  width: 100%;
   display: inline-block;
   text-align: -webkit-center;
   padding: 2% 0% 2% 0%;
@@ -320,14 +330,8 @@
   border: none;
 }
 
-.social{
-  justify-self: center;
-  text-align: center;
-  vertical-align: middle;
 
-}
-
-.share-article-1{
+/* .share-article-1{
   background-color: powderblue;
 }
 
@@ -337,4 +341,4 @@
 
 .share-article-3{
   background-color: rgb(176, 230, 180);
-}
+} */
