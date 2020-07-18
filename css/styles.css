@@ -121,6 +121,19 @@
     padding: 5%;
   }
 
+  .title-section button {
+    display: inline-block;
+    border: none;
+    border-radius: 13%;
+    padding: 5%;
+  }
+
+  .title-section button:hover,
+  button:focus {
+      background: #7397c2;
+      transform: scale(0.99);
+  }
+
   .tab-section {
     display: flex;
     background-color: indianred;
