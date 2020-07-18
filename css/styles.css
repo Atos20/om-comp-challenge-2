@@ -302,7 +302,29 @@
   grid-column: 3 / span 1;
 }
 
-.second-article button {
+.left-side button {
   border: none;
   background-color: Transparent;
+}
+
+.rigth-side button{
+  display: flex;
+  color: lavander;
+  flex-direction: column-reverse;
+  width: 100%
+}
+.social{
+  text-align: center;
+vertical-align: middle;
+}
+.share-article-1{
+  background-color: powderblue;
+}
+
+.share-article-2{
+  background-color: rgb(189, 176, 230);
+}
+
+.share-article-3{
+  background-color: rgb(176, 230, 180);
 }
