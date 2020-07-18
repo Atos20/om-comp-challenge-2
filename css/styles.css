@@ -2,6 +2,7 @@
 * {
     /* box-sizing: border-box; */
     font-family: 'Raleway', sans-serif;
+    padding: 1%;
   }
 
   a {
@@ -115,11 +116,12 @@
 
   .title-section {
     color: #4fb29c;
-    display: flex;
-    background-color: #2badd954;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #2badd982;
     justify-content: space-between;
     margin: 0% 0% 2% 2%;
-    padding: 5%;
+    padding: 3%;
   }
 
   .title-section button {
