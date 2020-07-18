@@ -179,8 +179,9 @@
   }
   
   .tab-section li {
-    padding: 1%;
+    padding: 1% 2% 0% 3%;
     font-size: 0.8em;
+    margin: 0%;
   }
 
   .tab-section li:hover{
