@@ -12,10 +12,11 @@
 
   body {
     display: grid;
-    grid-template-columns: 25% 70%;
+    grid-template-columns: 20% 80%;
     background-image: url("https://images.unsplash.com/photo-1524169113253-c6ba17f68498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 1%;
   } 
 
   .side-bar a:hover{ 
@@ -48,11 +49,11 @@
     background-color: rgb(97, 249, 213);
     border-radius: 50%;
     display: inline-block;
-    height: 100px;
-    text-align: center;
+    height: 70px;
     opacity: .7;
-    padding: 1em;
-    width: 100px;
+    padding: .4em;
+    text-align: center;
+    width: 73px
   }
 
   .profile-name {
@@ -64,12 +65,12 @@
     color: lavenderblush;
     text-align: center;
     list-style: none;
-    padding: 15px;
+    padding: 1%;
   }
 
   .menu-title{
     margin: 0px 10px 0px 10px;
-    padding: 15px 0px 5px 0px;
+    padding-bottom: 5px;;
   }
 
   .side-bar li{
@@ -81,8 +82,9 @@
     text-align: left;
     text-transform: lowercase;
     letter-spacing: .7px;
-    margin: 10px;
+    margin: 0;
     padding: 8px;
+    width: 90%;
   }
 
   .side-bar li:hover{
@@ -100,7 +102,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    background-color: coral;
+    background-color: #54b19e;;
     height: 4em;
   }
 
@@ -114,18 +116,38 @@
 
   .title-section {
     color: #4fb29c;
-    display: flex;
-    background-color: #2badd954;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #2badd982;
     justify-content: space-between;
-    margin: 0% 0% 2% 2%;
-    padding: 5%;
+    margin-left: 1%;
+    padding: 2% 0% 2% 2%;
+ 
+  }
+  .title {
+    font-weight: 500;
+  }
+  .location{
+    font-size: .7em;
   }
 
-  .title-section button {
+  .second-section {
+    align-self: end;
+    flex-wrap: wrap;
+    padding-left: 45%;
+}
+  .playing-button {
+    border-radius: 15px;
+    border: none;
+    font-size: .6em;
+    padding: 2% 8% 2% 8%;
+  }
+  .control-button{
     display: inline-block;
     border: none;
-    border-radius: 13%;
-    padding: 3%;
+    border-radius: 50%;
+    padding: 1%;
+    margin-left: 2%;
   }
 
   .title-section button:hover,
@@ -133,31 +155,114 @@
       background: #7397c2;
       transform: scale(0.99);
   }
+  .tab-section {
+    margin: 0;
+  }
 
   .tab-section ul {
+    background-color: #9764ba;
+    border-bottom: 4px solid #7397c2;
+    color: #ecdee3;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
-    background-color: indianred;
-    border-bottom: 2px solid black;
-    cursor: pointer;
-    font-size: smaller;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: .7em;
+    justify-content: space-start;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-transform: lowercase;
-    margin-top: 1em;
+    opacity: .9;
+    margin: 0%;
+    margin-left: 1%;
     padding: 1em;
+    padding-bottom: 0em;
+    text-transform: uppercase;
+  }
+  
+  .tab-section li {
+    padding: 1% 2% 2% 2%;;
+    font-size: 0.8em;
+    margin: 0%;
   }
 
   .tab-section li:hover{
-    border-bottom: .5px solid lightgray;
+    border-bottom: 4px solid #95b7a0;
+    font-weight: bolder;
   }
 
   .main-container {
     background-color: rgb(154, 127, 174);
     display: grid;
-    grid-template-rows: repeat(5, 10fr);
-    grid-template-columns: repeat(2, 10fr);
+    grid-template-rows: repeat(3, .3fr);
+    grid-template-columns: repeat(6, 10fr);
 }
 
+.main-container {
+  box-shadow: inset 10px 10px 34px -17px rgba(0,0,0,0.75);
+  margin-left: 1%;
+  padding: 3%;
+}
+
+.main-container h2, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  margin-top: .2em;
+}
+
+.album {
+  background-color: rgb(249, 150, 97);
+  border-radius: 50%;
+  display: inline-block;
+  height: 100px;
+  text-align: center;
+  opacity: .7;
+  padding: .10em;
+  /* width: 100px; */
+}
+
+.bar {
+  grid-column: 4 / span 3;
+  width: 14em;
+}
+
+.save-button {
+  display: inline-block;
+  padding: .5em;
+  margin: 2em 0.3em 3em 0;
+  border-radius: 2em;
+  border-color: #ecdee3;
+  font-size: 0.5em;
+  color: #ecdee3;
+  background-color: #54b19e;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.save-album {
+  grid-column: 2 / span 1;
+}
+
+.album-playing{
+  grid-column: 4 / span 1;
+  width: 8em;
+}
+
+.save-song {
+  grid-column: 5 / span 1;
+}
+.info-card {
+  grid-column: 5 / span 2;
+  margin: 11%;
+}
+
+.up {
+  grid-column: 3 / span 1;
+  /* margin: 0% 0% 0% 77%; */
+  border-radius: 50px;
+  text-align: center;
+  transition: all 0.2s;
+  width: 25px;
+  height: 25px;
+  float: left;
+  justify-self: end;
+
+}
