@@ -308,15 +308,25 @@
 }
 
 .rigth-side button{
-  display: flex;
-  color: lavander;
-  flex-direction: column-reverse;
-  width: 100%
+  margin: 0% 1% 5% 2%;
+  width: 50%;
+  display: inline-block;
+  text-align: -webkit-center;
+  padding: 2% 0% 2% 0%;
+  font-size: smaller;
+  letter-spacing: 2px;
+  color: white;
+  background-color: #3e7ec5;
+  border: none;
 }
+
 .social{
+  justify-self: center;
   text-align: center;
-vertical-align: middle;
+  vertical-align: middle;
+
 }
+
 .share-article-1{
   background-color: powderblue;
 }
