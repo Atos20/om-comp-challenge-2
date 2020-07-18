@@ -125,7 +125,7 @@
     display: inline-block;
     border: none;
     border-radius: 13%;
-    padding: 5%;
+    padding: 3%;
   }
 
   .title-section button:hover,
@@ -136,7 +136,12 @@
 
   .tab-section {
     display: flex;
+    justify-content: space-around;
+    list-style-type: none;
     background-color: indianred;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+    text-transform: lowercase;
   }
 
   .main-container {
