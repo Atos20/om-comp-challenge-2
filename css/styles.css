@@ -1,16 +1,16 @@
 
-* {
-    /* box-sizing: border-box; */
+*{
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
   }
 
-  a {
+  a{
     background-color: transparent;
     list-style: none;
     text-decoration: none;
 }
 
-  body {
+  body{
     display: grid;
     grid-template-columns: 20% 80%;
     background-image: url("https://images.unsplash.com/photo-1524169113253-c6ba17f68498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
@@ -25,7 +25,7 @@
     list-style-type: none;
   } 
 
-  .side-bar {
+  .side-bar{
     color: #FCF7FF;
     background-image: url("https://images.unsplash.com/photo-1524169113253-c6ba17f68498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
     display: flex;
@@ -36,7 +36,7 @@
     
   }
 
-  .profile {
+  .profile{
     text-align: center;
     padding-bottom: 1em;
     margin: 40px 0px 10px 0px ;
@@ -45,7 +45,7 @@
     /* width: ; */
   }
 
-  .profile-image {
+  .profile-image{
     background-color: rgb(97, 249, 213);
     border-radius: 50%;
     display: inline-block;
@@ -56,12 +56,12 @@
     width: 73px
   }
 
-  .profile-name {
+  .profile-name{
     margin: 5px;
     padding: 4px;
   }
 
-  .menu-section {
+  .menu-section{
     color: lavenderblush;
     text-align: center;
     list-style: none;
@@ -92,12 +92,12 @@
     padding: 9px;
   }
 
-  .side-bar a {
+  .side-bar a{
     color: rgb(97, 249, 213);
     list-style-type: none;
   }
 
-  .search-bar {
+  .search-bar{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -110,11 +110,11 @@
     padding: 1em;
   }
 
-  .search-box {
+  .search-box{
     margin: 0em 2em 0em 2em;
   }
 
-  .title-section {
+  .title-section{
     color: #4fb29c;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -124,19 +124,19 @@
     padding: 2% 0% 2% 2%;
  
   }
-  .title {
+  .title{
     font-weight: 500;
   }
   .location{
     font-size: .7em;
   }
 
-  .second-section {
+  .second-section{
     align-self: end;
     flex-wrap: wrap;
     padding-left: 45%;
 }
-  .playing-button {
+  .playing-button{
     border-radius: 15px;
     border: none;
     font-size: .6em;
@@ -150,16 +150,15 @@
     margin-left: 2%;
   }
 
-  .title-section button:hover,
-  button:focus {
+  .title-section button:hover, button:focus{
       background: #7397c2;
       transform: scale(0.99);
   }
-  .tab-section {
+  .tab-section{
     margin: 0;
   }
 
-  .tab-section ul {
+  .tab-section ul{
     background-color: #9764ba;
     border-bottom: 4px solid #7397c2;
     color: #ecdee3;
@@ -178,7 +177,7 @@
     text-transform: uppercase;
   }
   
-  .tab-section li {
+  .tab-section li{
     padding: 1% 2% 2% 2%;;
     font-size: 0.8em;
     margin: 0%;
@@ -189,45 +188,46 @@
     font-weight: bolder;
   }
 
-  .main-container {
+  .first-article{
     background-color: rgb(154, 127, 174);
     display: grid;
     grid-template-rows: repeat(3, .3fr);
     grid-template-columns: repeat(6, 10fr);
 }
 
-.main-container {
-  box-shadow: inset 10px 10px 34px -17px rgba(0,0,0,0.75);
-  margin-left: 1%;
-  padding: 3%;
+.first-article{
+    box-shadow: inset 10px 10px 34px -17px rgba(0,0,0,0.75);
+    margin-left: 1%;
+    padding: 3% 3% 3% 3%;
+    padding-bottom: 0;
 }
 
-.main-container h2, h4, h5, h6{
-  margin: 0;
-  padding: 0;
-  margin-top: .2em;
+.first-article h2, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    margin-top: .2em;
 }
 
-.album {
-  background-color: rgb(249, 150, 97);
-  border-radius: 50%;
-  display: inline-block;
-  height: 100px;
-  text-align: center;
-  opacity: .7;
-  padding: .10em;
+.album{
+    background-color: rgb(249, 150, 97);
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    opacity: .7;
+    padding: .10em;
   /* width: 100px; */
 }
 
-.bar {
+.bar{
   grid-column: 4 / span 3;
   width: 14em;
 }
 
-.save-button {
+.save-button{
   display: inline-block;
   padding: .5em;
-  margin: 2em 0.3em 3em 0;
+  margin: 1em -1.7em 1em 0;
   border-radius: 2em;
   border-color: #ecdee3;
   font-size: 0.5em;
@@ -237,7 +237,7 @@
   transition: all 0.2s;
 }
 
-.save-album {
+.save-album{
   grid-column: 2 / span 1;
 }
 
@@ -246,23 +246,108 @@
   width: 8em;
 }
 
-.save-song {
+.save-song{
   grid-column: 5 / span 1;
 }
-.info-card {
+.info-card{
   grid-column: 5 / span 2;
   margin: 11%;
 }
 
-.up {
+.up{
   grid-column: 3 / span 1;
-  /* margin: 0% 0% 0% 77%; */
+  margin: 0% -10% 0% 0%;
+  border: none;
   border-radius: 50px;
+  border-style: none;
   text-align: center;
-  transition: all 0.2s;
+  text-transform: none;
   width: 25px;
   height: 25px;
-  float: left;
   justify-self: end;
+  text-decoration: none;
+}
 
+.second-article{
+  display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #cffcf7b8;
+    margin-left: 1%;
+}
+
+.left-side{
+  background-color: #ec5c72;
+    grid-template-columns: 15% 5% 10% 48% 15%;
+    grid-template-rows: repeat(10, 15fr);
+    grid-gap: 2px;
+    display: grid;
+    opacity: .8;
+    justify-items: start;
+    align-items: end;
+    margin: 0% 0% 3% 0%;
+    
+}
+.album-cover {
+  width: 50px;
+  height: 50px;
+  margin-left: 1em;
+}
+
+.left-container{
+  grid-column: 1 / span 2;
+}
+
+.artist-name{
+  grid-column: 3 / span 1;
+}
+
+.left-side button {
+  border: none;
+  background-color: Transparent;
+}
+
+.left-side button:hover{
+  /* background-color: red; */
+}
+.rigth-side{
+  text-align: center;
+  padding: 1em;
+}
+
+.share-article-1 {
+  border-bottom: 1px solid rgba(104, 205, 24, 0.69);
+  padding: 5%;
+  
+}
+.rigth-side button{
+  background-color: #3e7ec5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  font-size: smaller;
+  letter-spacing: 2px;
+  margin: 0% 1% 5% 2%;
+  padding: 4% 0% 4% 0%;
+  text-align: -webkit-center;
+  width: 100%;
+}
+
+.rigth-side button:hover {
+  background-color: #7da1c9;
+}
+
+.rigth-side p{
+  text-align: left;
+  font-size: .7em;
+  margin: 10% 0% 10% 0%;
+  line-height: 1.6;
+}
+
+.rigth-side input{
+  margin: 10% 0% 5% 0%;
+}
+
+.rigth-side h4{
+  color: #9367b6;
 }
