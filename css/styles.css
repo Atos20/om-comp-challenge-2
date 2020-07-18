@@ -339,7 +339,15 @@
 
 .rigth-side p{
   text-align: left;
-  font-size: .5em;
+  font-size: .7em;
   margin: 10% 0% 10% 0%;
   line-height: 1.6;
+}
+
+.rigth-side input{
+  margin: 10% 0% 5% 0%;
+}
+
+.rigth-side h4{
+  color: #9367b6;
 }
