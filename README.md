@@ -6,8 +6,6 @@
 
 ## Context
 
-
-
 #### Technologies used:
 
  * HTML
@@ -73,10 +71,10 @@
     
     - On the tab bar, only 3 buttons persist which are the main buttons needed to navigate. Since the space is more lmited at this screen size, the user don't need to have that many options. This makes for a more enjoyable user's experience.
 
-<p align=center>
-  <img src="https://media.giphy.com/media/L0YTYGhzTXMwLwVG6j/giphy.gif" alt="" height=auto width=75%/>
-</p>
 
+<p align=center>
+  <img src="https://media.giphy.com/media/h78qAJ8hE9op75HqEv/giphy.gif" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
+</p>
 
 
 #### screen size: 500px to 700px
@@ -84,8 +82,9 @@
 * Between 500px and 700px the major change occurs on the main section where instead of displaying grid, the container displays flex, changing from a horizontal navigation to a vertical navigation ideal for small screens.
 
 <p align=center>
-  <img src="" alt="Between 500px and 700px the major change occurs on the main section where instead of displaying grid, the container displays flex, changing from a horizontal navigation to a vertical navigation ideal for small screens." height=auto width=75%/>
+  <img src="https://media.giphy.com/media/h78qAJ8hE9op75HqEv/giphy.gif" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
 </p>
+
 
 ### Project Specification
 
