@@ -6,7 +6,7 @@
 
 ## Context
 
-OM comp challenge-2 is the second solo project that I finished using HTML and CSS to replicate a webpage. This project challenges the use of layout systems such as CSS Grid and flexbox and required an understanding of wireframing to define the website's structure.
+OM comp challenge-2 is the second solo project that I have worked on using HTML and CSS. This project challenges the use of layout systems such as CSS Grid and flexbox and required an understanding of wireframing to define the website's structure.
 
 #### Technologies used:
 
@@ -47,7 +47,7 @@ OM comp challenge-2 is the second solo project that I finished using HTML and CS
   
 > Implementation
 
-#### screen size: 1540px and above
+#### screen size: 900px to 1540px 
   
   - When the screen size is 1540px and above the elements in the page appeared in a way that give the user enough space to appreciate the elements in eh page confortably.
 
@@ -55,7 +55,7 @@ OM comp challenge-2 is the second solo project that I finished using HTML and CS
   <img src="https://media.giphy.com/media/jsTIxTlabHVFvwMg6F/giphy.gif" alt="" height=auto width=75%/>
 </p>
 
-#### screen size: 900px to 1540px
+#### screen size: 700px to 900px
 
 * When the screen size reaches 900px the first media query resizes the album images from the main section to make more space for the album playing on the right of the first section.
  
@@ -65,7 +65,7 @@ OM comp challenge-2 is the second solo project that I finished using HTML and CS
   <img src="https://media.giphy.com/media/h78qAJ8hE9op75HqEv/giphy.gif" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
 </p>
 
-#### screen size: 700px to 900px
+#### screen size: 500px to 700px
 
 * When the scree size reaches 700px the major layout changes can be appreciated.
     
@@ -79,7 +79,7 @@ OM comp challenge-2 is the second solo project that I finished using HTML and CS
 </p>
 
 
-#### screen size: 500px to 700px
+#### screen size: 500px
 
 * Between 500px and 700px the major change occurs on the main section where instead of displaying grid, the container displays flex, changing from a horizontal navigation to a vertical navigation ideal for small screens.
 
