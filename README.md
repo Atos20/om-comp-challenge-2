@@ -73,7 +73,7 @@
 
 
 <p align=center>
-  <img src="https://media.giphy.com/media/h78qAJ8hE9op75HqEv/giphy.gif" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
+  <img src="https://media.giphy.com/media/L0YTYGhzTXMwLwVG6j/giphy.gif" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
 </p>
 
 
