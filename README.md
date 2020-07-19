@@ -1,5 +1,8 @@
 # om-comp-challenge-2
 
+## GitHub page
+
+> [om-comp-challenge-2](https://atos20.github.io/om-comp-challenge-2/)
 ## Contributors
 
 > [Orlando Murcio](https://www.github.com/atos20)
