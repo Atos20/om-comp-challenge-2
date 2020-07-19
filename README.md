@@ -71,7 +71,7 @@
     
     - On the tab bar, only 3 buttons persist which are the main buttons needed to navigate. Since the space is more lmited at this screen size, the user don't need to have that many options. This makes for a more enjoyable user's experience.
 
-
+ 
 <p align=center>
   <img src="https://media.giphy.com/media/L0YTYGhzTXMwLwVG6j/giphy.gif" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
 </p>
@@ -88,3 +88,18 @@
 
 ### Project Specification
 
+ > [Project instructions](https://frontend.turing.io/projects/module-1/m1-static-comp-2.html)
+ 
+### Contribute to the project
+
+- If you want to contribute
+- clone the repository to your computer `git clone <URL>`
+- cd into the repository `cd <repo-name>`
+- create a new branch with `git checkout -b <new branch name>`
+- open your text editor and add or remove functionalities to the site.
+- `git add` and `git commit -m` to save the changes to your local repository
+- `git push` your changes
+- create a new pull request!
+
+### Project Manager
+ > [Hannah Hudson](https://github.com/hannahhch)
