@@ -185,11 +185,11 @@
     text-transform: uppercase;
   }
   
-  .tab-section li{
-    padding: 1% 2% 2% 2%;;
-    font-size: 0.8em;
-    margin: 0%;
-  }
+  .tab-section li {
+    font-size: 1.2em;
+    margin: 0% 1% 0% 1%;
+    padding: 1% 3% 2% 3%;
+}
 
   .tab-section li:hover{
     border-bottom: 4px solid #95b7a0;
@@ -257,6 +257,7 @@
 .save-song{
   grid-column: 5 / span 1;
 }
+
 .info-card{
   grid-column: 5 / span 2;
   margin: 11%;
@@ -495,3 +496,8 @@
     display: none;
   }
 } 
+@media only screen and (max-width: 320px) {
+  body{
+    width: 320px;
+  }
+}
