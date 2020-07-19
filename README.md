@@ -101,5 +101,4 @@
 - `git push` your changes
 - create a new pull request!
 
-### Project Manager
- > [Hannah Hudson](https://github.com/hannahhch)
+
