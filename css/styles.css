@@ -309,6 +309,7 @@
 .left-side button:hover{
   /* background-color: red; */
 }
+
 .rigth-side{
   text-align: center;
   padding: 1em;
@@ -350,4 +351,36 @@
 
 .rigth-side h4{
   color: #9367b6;
+}
+@media (max-width: 900px){
+  .album {
+    display: inline-block;
+    height: 80px;
+    text-align: center;
+    opacity: .7;
+    padding: .10em;
+    width: 80px;
+  }
+}
+
+@media (max-width: 700px){
+  .album {
+    display: none;
+  }
+
+  .album-playing{
+    grid-column: 2 / span 2;
+    width: 7em;
+  }
+
+  .info-card {
+    font-size: 75%;
+    grid-column: 4 / span 3;
+    margin: 2%;
+
+  .second-article{
+    margin: 10em;
+    }
+    
+  }
 }
