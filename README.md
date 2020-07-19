@@ -6,6 +6,8 @@
 
 ## Context
 
+OM comp challenge-2 is the second solo project that I finished using HTML and CSS to replicate a webpage. This project challenges the use of layout systems such as CSS Grid and flexbox and required an understanding of wireframing to define the website's structure.
+
 #### Technologies used:
 
  * HTML
