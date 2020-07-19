@@ -74,16 +74,9 @@
     - On the tab bar, only 3 buttons persist which are the main buttons needed to navigate. Since the space is more lmited at this screen size, the user don't need to have that many options. This makes for a more enjoyable user's experience.
 
 <p align=center>
-  <img src="https://giphy.com/gifs/VhVvQSPRI0PNOrZLjd/html5" alt="between screen sizes of 900 pixels to  1450 pixels there is enough space to display all the elements on the screen" height=auto width=75%/>
-</p>
-
-<p align=center>
   <img src="https://media.giphy.com/media/VhVvQSPRI0PNOrZLjd/giphy.gif" alt="When the user reduces the screen size to 700px, the album images from the first section of the main container hide to make more space for the main album playin. The buttons from the tab section hid and only 3 tab options persist to make for a better user's experience" height=auto width=75%/>
 </p>
 
-<p align=center>
-  <img src="https://media.giphy.com/media/VhVvQSPRI0PNOrZLjd/giphy.gif" alt="When the user reduces the screen size to 700px, the album images from the first section of the main container hide to make more space for the main album playin. The buttons from the tab section hid and only 3 tab options persist to make for a better user's experience" height=auto width=75%/>
-</p>
 
 #### screen size: 500px to 700px
 
