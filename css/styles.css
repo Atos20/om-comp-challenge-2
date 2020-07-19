@@ -352,6 +352,7 @@
 .rigth-side h4{
   color: #9367b6;
 }
+
 @media (max-width: 900px){
   .album {
     display: inline-block;
@@ -377,10 +378,26 @@
     font-size: 75%;
     grid-column: 4 / span 3;
     margin: 2%;
+  }
 
   .second-article{
-    margin: 10em;
+    display: flex;
+    flex-direction: column;
     }
     
+  .rigth-side input{
+    display: none;
+  }
+
+  .left-side {
+    font-size: 90%;
+    background-color: #ec5c72;
+    grid-template-columns: 21% 4% 10% 28% 1%;
+    grid-template-rows: repeat(10, 0fr);
+    grid-gap: 0px;
+    display: grid;
+    justify-items: self-start;
+    align-items: end;
+    margin: 0% 0% 3% 0%;
   }
 }
