@@ -392,6 +392,13 @@
   .rigth-side input{
     display: none;
   }
+  .second-section {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 1% 1% 1% 1%;
+    justify-content: space-evenly;
+}
 
   .tab-section li {
     padding: 1% 2% 2% 2%;
@@ -405,7 +412,13 @@
     padding: 1em;
     padding-bottom: 0em;
 }
-
+  .title-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    margin-left: 1%;
+    padding: 2% 0% 2% 2%;
+}
   .left-side {
     font-size: 90%;
     background-color: #ec5c72;
