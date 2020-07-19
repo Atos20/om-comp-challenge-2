@@ -356,6 +356,7 @@
 
 .rigth-side input{
   margin: 10% 0% 5% 0%;
+  width: 100%;
 }
 
 .rigth-side h4{
@@ -499,5 +500,15 @@
 @media only screen and (max-width: 320px) {
   body{
     width: 320px;
+  }
+
+  .profile-image{
+    height: 50px;
+    padding: 0.2em;
+    width: 50px;
+  }
+  
+  .side-bar{
+    width: 
   }
 }
