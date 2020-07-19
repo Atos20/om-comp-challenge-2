@@ -364,11 +364,11 @@
 @media (max-width: 900px){
   .album {
     display: inline-block;
-    height: 80px;
+    height: 70px;
     text-align: center;
     opacity: .7;
     padding: .10em;
-    width: 80px;
+    width: 70px;
   }
 
   .info-card {
