@@ -14,7 +14,6 @@
     display: grid;
     grid-template-columns: 20% 80%;
     background-image: url("https://images.unsplash.com/photo-1524169113253-c6ba17f68498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
-    background-repeat: no-repeat;
     background-size: cover;
     padding: 1%;
   } 
@@ -106,16 +105,12 @@
     height: 4em;
   }
 
-  .search-bar i{
-    padding: 1em;
-  }
-
   .search-box{
     margin: 0em 2em 0em 2em;
   }
 
   .title-section{
-    color: #4fb29c;
+    color: #cecece;
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #2badd982;
@@ -133,8 +128,10 @@
 
   .second-section{
     align-self: end;
+    display: flex;
     flex-wrap: wrap;
     padding-left: 45%;
+    justify-content: space-evenly;
 }
   .playing-button{
     border-radius: 15px;
@@ -144,10 +141,16 @@
   }
   .control-button{
     display: inline-block;
+    background-color: transparent;
     border: none;
     border-radius: 50%;
+    color: white;
     padding: 1%;
     margin-left: 2%;
+    height: 35px;
+    text-align: center;
+    font-size: 25px;
+    width: 35px;
   }
 
   .title-section button:hover, button:focus{
@@ -177,11 +180,11 @@
     text-transform: uppercase;
   }
   
-  .tab-section li{
-    padding: 1% 2% 2% 2%;;
-    font-size: 0.8em;
-    margin: 0%;
-  }
+  .tab-section li {
+    font-size: 1.2em;
+    margin: 0% 1% 0% 1%;
+    padding: 1% 3% 2% 3%;
+}
 
   .tab-section li:hover{
     border-bottom: 4px solid #95b7a0;
@@ -249,6 +252,7 @@
 .save-song{
   grid-column: 5 / span 1;
 }
+
 .info-card{
   grid-column: 5 / span 2;
   margin: 11%;
@@ -270,21 +274,21 @@
 
 .second-article{
   display: grid;
-    grid-template-columns: 70% 30%;
-    background-color: #cffcf7b8;
-    margin-left: 1%;
+  grid-template-columns: 70% 30%;
+  background-color: #cffcf7b8;
+  margin-left: 1%;
 }
 
 .left-side{
   background-color: #ec5c72;
-    grid-template-columns: 15% 5% 10% 48% 15%;
-    grid-template-rows: repeat(10, 15fr);
-    grid-gap: 2px;
-    display: grid;
-    opacity: .8;
-    justify-items: start;
-    align-items: end;
-    margin: 0% 0% 3% 0%;
+  grid-template-columns: 15% 5% 10% 48% 15%;
+  grid-template-rows: repeat(10, 15fr);
+  grid-gap: 2px;
+  display: grid;
+  opacity: .8;
+  justify-items: start;
+  align-items: end;
+  margin: 0% 0% 3% 0%;
     
 }
 .album-cover {
@@ -309,6 +313,7 @@
 .left-side button:hover{
   /* background-color: red; */
 }
+
 .rigth-side{
   text-align: center;
   padding: 1em;
@@ -346,8 +351,167 @@
 
 .rigth-side input{
   margin: 10% 0% 5% 0%;
+  width: 100%;
 }
 
 .rigth-side h4{
   color: #9367b6;
+}
+
+@media (max-width: 900px){
+  .album {
+    display: inline-block;
+    height: 70px;
+    text-align: center;
+    opacity: .7;
+    padding: .10em;
+    width: 70px;
+  }
+
+  .info-card {
+    font-size: 75%;
+    grid-column: 5 / span 3;
+    margin: 2%;
+  }
+
+  .second-section {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    padding: 1% 1% 1% 1%;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 700px){
+  .album {
+    display: none;
+  }
+
+  .album-playing{
+    grid-column: 2 / span 2;
+    width: 7em;
+  }
+
+  .info-card {
+    font-size: 75%;
+    grid-column: 4 / span 3;
+    margin: 2%;
+  }
+
+  .second-article{
+    display: flex;
+    flex-direction: column;
+    }
+
+  .album-tab, .artist-tab, .podcast-tab{
+    display: none;
+  }
+
+  .rigth-side input{
+    display: none;
+  }
+
+  .search-box {
+    margin: 0em 0em 0em 0em;
+}
+
+  .tab-section li {
+    padding: 1% 10% 2% 10%;
+    font-size: 1.3em;
+    margin: 0%;
+}
+
+  .tab-section ul {
+    justify-content: end;
+    margin-left: 0%;
+    padding: 0em;
+    padding-bottom: 0em;
+}
+  .title-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    margin-left: 1%;
+    padding: 2% 0% 2% 2%;
+}
+
+  .left-side {
+    font-size: 90%;
+    background-color: #ec5c72;
+    grid-template-columns: 16% 7% 10% 39% 17%;
+    grid-template-rows: repeat(10, 0fr);
+    grid-gap: 0px;
+    display: grid;
+    justify-items: self-start;
+    align-items: end;
+    margin: 0% 0% -5% 0%;
+  }
+}
+
+@media (max-width: 500px){
+  .album-playing{
+    grid-column: 1 / span 2;
+    width: 5em;
+  }
+
+  .info-card {
+    font-size: 75%;
+    grid-column: 3 / span 4;
+    margin: 4%;
+  }
+
+  .left-side {
+    font-size: 60%;
+    background-color: #ec5c72;
+    grid-template-columns: 16% 7% 10% 39% 17%;
+    grid-template-rows: repeat(10, 0fr);
+    grid-gap: 3px;
+    display: grid;
+    justify-items: baseline;
+    align-items: flex-start;
+    margin: 0% 0% 3% 0%;
+}
+
+  .firs-section{
+    display: none;
+  }
+
+  .save-album {
+     grid-column: 1 / span 2;
+  }
+
+  .save-song {
+    grid-column: 4 / span 2;
+  }
+
+  .search-bar {
+    height: 2em;
+}
+
+  .title-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 1%;
+    padding: 2% 0% 2% 2%;
+}
+
+  .up{
+    display: none;
+  }
+} 
+@media only screen and (max-width: 320px) {
+  body{
+    width: 320px;
+  }
+
+  .profile-image{
+    height: 50px;
+    padding: 0.2em;
+    width: 50px;
+  }
+  
+  .side-bar{
+    width: 
+  }
 }
