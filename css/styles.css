@@ -392,7 +392,7 @@
   .left-side {
     font-size: 90%;
     background-color: #ec5c72;
-    grid-template-columns: 21% 4% 10% 28% 1%;
+    grid-template-columns: 16% 7% 10% 39% 17%;
     grid-template-rows: repeat(10, 0fr);
     grid-gap: 0px;
     display: grid;
@@ -401,3 +401,39 @@
     margin: 0% 0% 3% 0%;
   }
 }
+
+@media (max-width: 500px){
+  .album-playing{
+    grid-column: 1 / span 2;
+    width: 5em;
+  }
+  .info-card {
+    font-size: 75%;
+    grid-column: 3 / span 4;
+    margin: 4%;
+  }
+
+  .left-side {
+    font-size: 60%;
+    background-color: #ec5c72;
+    grid-template-columns: 16% 7% 10% 39% 17%;
+    grid-template-rows: repeat(10, 0fr);
+    grid-gap: 3px;
+    display: grid;
+    justify-items: baseline;
+    align-items: flex-start;
+    margin: 0% 0% 3% 0%;
+}
+
+  .save-album {
+     grid-column: 1 / span 2;
+  }
+
+  .save-song {
+    grid-column: 4 / span 2;
+  }
+
+  .up{
+    display: none;
+  }
+} 
